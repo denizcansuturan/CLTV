@@ -24,4 +24,4 @@ Dataset includes the sales of a UK based online store from 01/12/2009 to 09/12/2
 - **Customer ID:** Unique number for each customer.
 - **Country:** Country the customer lives.
 
-[Medium Blog on this Problem]()
+[Medium Blog on this Problem](https://medium.com/@denizcansuturan/customer-lifetime-value-6b1b7052cc0f)
