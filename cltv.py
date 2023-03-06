@@ -30,7 +30,7 @@ import pandas as pd
 pd.set_option('display.max_columns', None)
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
-df_ = pd.read_excel("D:/MIUUL/CRM/crmAnalytics/rfm/online_retail_II.xlsx", sheet_name="Year 2010-2011")
+df_ = pd.read_excel("location", sheet_name="Year 2010-2011")
 df = df_.copy()
 # if something goes wrong we do not need to read the data again
 # working on the copy right now.
@@ -202,7 +202,7 @@ def create_cltv_c(dataframe, profit=0.10):
 # Profit is defined by the company, so an option is added to
 # control the profit value.
 
-df2_ = pd.read_excel("D:/MIUUL/CRM/crmAnalytics/rfm/online_retail_II.xlsx", sheet_name="Year 2009-2010")
+df2_ = pd.read_excel("location", sheet_name="Year 2009-2010")
 df2 = df2_.copy()
 
 clv = create_cltv_c(df2)
